@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Fragment_Listes_de_Lecture">
+
+
+    <!--<TextView
+        android:id="@+id/titre_listes_de_lecture"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="Listes de Lecture" />-->
+
+    <ListView
+        android:id="@+id/listview_listes_de_lecture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:fastScrollAlwaysVisible="false"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bouton_flottant_ajouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_list_white_24dp"
+        android:clickable="true"/>
+</FrameLayout>
