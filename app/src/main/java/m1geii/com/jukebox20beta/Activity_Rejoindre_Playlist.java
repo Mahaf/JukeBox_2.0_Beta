@@ -8,6 +8,7 @@ public class Activity_Rejoindre_Playlist extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //branche Mahafous
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rejoindre);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
